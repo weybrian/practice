@@ -1,4 +1,4 @@
-package practice;
+package array;
 
 public class ReverseArray {
 
@@ -13,11 +13,17 @@ public class ReverseArray {
 
 	public static int[] reverse(int[] arrays, int length) {
 		int[] intArrays = new int[length];
-		int num = length-1;
-		for (int a : arrays) {
-			intArrays[num] = a;
-			num--;
+//		int num = length-1;
+//		for (int a : arrays) {
+//			intArrays[num] = a;
+//			num--;
+//		}
+		
+		for (int i = 0; i < intArrays.length; i++) {
+			intArrays[i] = arrays[length-1];
+			length--;
 		}
+		
 		return intArrays;
 	}
 }
