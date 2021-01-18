@@ -1,4 +1,4 @@
-package practice;
+package varibleValue;
 
 import java.math.BigDecimal;
 

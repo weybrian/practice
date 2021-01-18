@@ -1,4 +1,4 @@
-package practice;
+package varibleValue;
 
 public class IsStringNull {
 	
