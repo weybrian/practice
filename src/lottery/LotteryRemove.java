@@ -24,7 +24,7 @@ public class LotteryRemove {
         ArrayList<Integer> allNumberArray = new ArrayList<Integer>();
         for (int i = 0; i < maxBallNum; i++) {
             allNumberArray.add(i + 1);
-            // System.out.println(allNumberArray.toString());
+             System.out.println(allNumberArray);
         }
         for (int i = 0; i < selectedBallNum; i++) {
             int j = (int) Math.round(Math.random() * allNumberArray.size());
