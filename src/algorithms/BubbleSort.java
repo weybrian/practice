@@ -6,14 +6,14 @@ public class BubbleSort {
     private ArrayList<Integer> arrayList;
 
     public ArrayList<Integer> getArrayList() {
-        return BubbleSort();
+        return bubbleSort();
     }
 
     public void setArrayList(ArrayList<Integer> arrayList) {
         this.arrayList = arrayList;
     }
 
-    public ArrayList<Integer> BubbleSort() {
+    public ArrayList<Integer> bubbleSort() {
         Integer tempNum;
         for (int j = 0; j < arrayList.size() - 1; j++) {
             for (int i = 0; i < arrayList.size() - 1 - j; i++) {

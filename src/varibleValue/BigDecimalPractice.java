@@ -20,7 +20,7 @@ public class BigDecimalPractice {
         BigDecimal b1 = new BigDecimal(10);
         BigDecimal b2 = new BigDecimal("10");
         BigDecimal b3 = new BigDecimal("10.0");
-        BigDecimal b4 = null;// 初始值宣告為null
+//        BigDecimal b4 = null;// 初始值宣告為null
         BigDecimal b5 = new BigDecimal(3);
 
         // 比較
