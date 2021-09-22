@@ -9,6 +9,7 @@ public class Practice {
         arrayList.add(1);
         arrayList.add(2);
         System.out.println(arrayList.get(1));
+        System.out.println(123);
     }
 
 }
